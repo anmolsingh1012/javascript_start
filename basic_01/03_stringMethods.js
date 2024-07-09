@@ -1,7 +1,9 @@
-const favChar = "Chandler Bing "
-const count = 50
+const favChar = "Chandler Bing"
+const count =54
 
-console.log(favChar + count + " hahaha")
+console.log(favChar + count + " hahaha")  // old version of writing 
+console.log(`${favChar} ${count}` );
+console.log(`My fav character from friends is ${favChar} and he died at ${count}` );
 
 const mystericalPalace = new String('Bran Castle Transylvania') // here string is treated as object
 
