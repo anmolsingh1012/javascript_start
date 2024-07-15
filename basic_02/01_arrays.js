@@ -9,8 +9,8 @@ console.log(typeof arr1);
 
 console.log("A" , arr1);
 console.log("slice walaa ",arr1.slice(0,2))
-console.log("B ",arr1);
-console.log(" Splice walaa",arr1.splice(0,2));
+console.log("B ",arr1);8
+console.log("Splice walaa",arr1.splice(0,2));
 console.log("c ",arr1);
 
 
