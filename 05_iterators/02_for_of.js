@@ -1,4 +1,5 @@
 /* //for of  -> array specific
+// gives directly values
 
 // ["","",""]
 // [{},{},{}]
@@ -27,18 +28,20 @@ map.set('Az' , "azarbijan")
 //console.log(map); 
 
 for (const [key, values] of map) {
-   // console.log(key, ' : ', values);
+   console.log(key, ' : ', values);
     
 }
 const obj={
     'name' :"takshi",
     'game2':'GOT'
 }
+
 // for of loop doesn't work for objects
 
 // for (const [key, values] of obj) {
 //     console.log(key, ' : ', values);
     
 // }
+
 
 
