@@ -1,5 +1,5 @@
 /* //for of  -> array specific
-// gives directly values
+// returns directly values
 
 // ["","",""]
 // [{},{},{}]
