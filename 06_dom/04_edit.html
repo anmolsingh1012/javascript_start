@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+   
+</head>
+<body style = "background-color: rgb(2, 2, 2); color:orange">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addLanguage(langName){
+        const LI=document.createElement('li')
+        LI.innerHTML= `${langName}`
+        // abhi hawa mein hai toh attach b krna hai vinod
+        document.querySelector('.language').appendChild(LI)
+    }
+    addLanguage("Python")
+    addLanguage("Ruby")
+
+    //optimezed approach using DSA
+    function addoptimizedlanguage(langName){
+        const LI = document.createElement('li')
+        // const optilanguage = document.createTextNode(langName)
+        // LI.appendChild(optilanguage)
+        ////  2 lines k mazaa ek line mein
+        LI.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(LI)
+
+    }
+    addoptimizedlanguage("cpp")
+//edit
+document.querySelector("li:nth-child(2)")
+
+
+
+</script>
+</html>
