@@ -9,8 +9,20 @@
     
 </body>
 <script>
-    const div=document.createElement('div')
-    console.log(div);
-    div.className =
+    const div=document.createElement('div')   
+    console.log(div); 
+    //add properties to div
+
+    div.className = 'main'
+    div.id =Math.round(Math.random()*10 +1)
+    div.setAttribute("title","seekh lo javascript")
+    // setAttribute sedhe set krta.. ek round trip bach jati jaldi jaldi kaam hoo jataa
+    div.style.backgroundColor ="orange"
+    div.style.padding = "20px"
+    div.innerText = "chai coffee.'here i use innerText and it ooverwrites value'" //innerText  -> overwrite krta hai value phle value lee krr ataa fir set krta
+    const textNode=document.createTextNode("What name should i set for my github profile. 'here i use createTextNode which is reliable'")
+    div.appendChild(textNode)
+    document.body.appendChild(div)
+
 </script>
 </html>
