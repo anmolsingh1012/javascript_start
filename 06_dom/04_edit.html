@@ -33,7 +33,22 @@
     }
     addoptimizedlanguage("cpp")
 //edit
-document.querySelector("li:nth-child(2)")
+   const editlanguage1=document.querySelector("li:nth-child(2)")
+    editlanguage1.innerHTML="Golang"
+
+   const editLanguage2= document.createElement('li')
+   editLanguage2.textContent = "hybrid"
+   editlanguage1.replaceWith(editLanguage2)
+
+   //edit example 2
+
+   const doit = document.querySelector("li:first-child")
+   doit.outerHTML = '<li>typescript</li>'
+
+   //remove
+   const removee = document.querySelector('li:last-child')
+   removee.remove()
+    
 
 
 
